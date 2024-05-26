@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Kanban</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+
+    </head>
+    <body>
+        <h1>Prueba kanban</h1>
+        <div class="boton">
+            <input id="cajaBuscar" type="text" placeholder="Buscar tarea"
+                onkeyup="buscar()">
+        </div>
+        <div class="container">
+            <div class="colum todo"
+                style="background-color: rgb(224, 171, 171);">
+                <h2>Pendiente</h2>
+
+            </div>
+            <div class="colum doing"
+                style="background-color: rgb(224, 171, 171);">
+                <h2>En desarrollo</h2>
+            </div>
+            <div class="colum done"
+                style="background-color: rgb(224, 171, 171);">
+                <h2>Hecho</h2>
+            </div>
+        </div>
+        <div class="boton">
+            <input id="addbox" value="Añadir tarea" type="button">
+        </div>
+        <script src='script.js'></script>
+    </body>
+</html>
